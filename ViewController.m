@@ -20,13 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    _nickNameTF = [[UITextField alloc] init];
-//    _nickNameTF.frame = RECT((SCR_WIDTH - 120) / 2, 110, 120, 25);
-//    _nickNameTF.font = FONT(16);
-//    _nickNameTF.placeholder = @"请输入成员名称";
-//    _nickNameTF.textColor = [UIColor blackColor];
-//    _nickNameTF.textAlignment = NSTextAlignmentCenter;
-//    [_whiteBgView addSubview:_nickNameTF];
+    _nickNameTF = [[UITextField alloc] init];
+    _nickNameTF.frame = RECT((SCR_WIDTH - 120) / 2, 110, 120, 25);
+    _nickNameTF.font = FONT(16);
+    _nickNameTF.placeholder = @"请输入成员名称";
+    _nickNameTF.textColor = [UIColor blackColor];
+    _nickNameTF.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:_nickNameTF];
 }
 
 
